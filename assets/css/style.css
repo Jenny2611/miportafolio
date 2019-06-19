@@ -1,15 +1,28 @@
 body {
  font-family: 'Oswald', sans-serif;
  font-family: 'Open Sans', sans-serif;
+ margin: 0;
 }
+
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
 
 header {
 background-image: url('../img/bg_hero.png');
 background-repeat: no-repeat;
 background-size: cover;
 background-position:center;
-
+padding-bottom: 10rem;
 }
+
+section, footer {
+  margin-top: 4.5rem;
+}
+
 .rosado {
   background-color: #660066;
   color: #FFFFFF;
@@ -19,4 +32,32 @@ background-position:center;
   font-family: 'Oswald', sans-serif;
   font-size: 40pt;
   weight:bold;
+}
+
+@media only screen and (min-width: 320px) {
+.icons-section{
+  display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+.icons-section{
+  display: block;
+  }
+}
+
+img.pequeña{
+  width: 237.28px; height: 70px;
+}
+
+.carousel-indicators {
+  top: 40px;
+  text-decoration: line-through;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  top: 70;
+  border-radius: 10%;
+  background-color: black;
 }
