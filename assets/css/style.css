@@ -1,0 +1,22 @@
+body {
+ font-family: 'Oswald', sans-serif;
+ font-family: 'Open Sans', sans-serif;
+}
+
+header {
+background-image: url('../img/bg_hero.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+
+}
+.rosado {
+  background-color: #660066;
+  color: #FFFFFF;
+}
+
+.letralogo{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40pt;
+  weight:bold;
+}
