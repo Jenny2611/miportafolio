@@ -50,14 +50,14 @@ img.pequeña{
 }
 
 .carousel-indicators {
-  top: 60px;
+    top: 120px;
   text-decoration: line-through;
 }
 
 .carousel-indicators li {
   width: 10px;
   height: 10px;
-  top: 70;
+  top: 100;
   border-radius: 10%;
   background-color: black;
 }
